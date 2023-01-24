@@ -52,7 +52,7 @@ for (i, rect) in enumerate(rects):
         roi = imutils.resize(roi, width=250, inter=cv2.INTER_CUBIC)
 
         # show the particualr face part
-        cv2.imshow("ROI", roi)
+        cv2.imshow("Region of Interest", roi)
         cv2.imshow("Image", clone)
         cv2.waitKey(0)
 
